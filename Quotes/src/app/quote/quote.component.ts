@@ -8,9 +8,9 @@ import {Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
   quotes = [
-        new Quote(1,'In the middle of every difficulty lies opportunity');
-        new Quote(2,'Life is a beautiful struggle');
-        new Quote(3,'Big jobs usually go to the men who prove their ability to outgrow small ones');
+        new Quote(1,'In the middle of every difficulty lies opportunity',"Ian Muchai"),
+        new Quote(2,'Life is a beautiful struggle',"Ian Muchai"),
+        new Quote(3,'Big jobs usually go to the men who prove their ability to outgrow small ones',"Ian Muchai")
       ]
   @Input()quote:Quote;
   constructor() { }
