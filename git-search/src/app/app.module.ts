@@ -6,6 +6,7 @@ import {FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
