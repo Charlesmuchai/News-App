@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+     {% if title %}
+     <title> {{ title }}</title>
+     {% else %}
+     <title> Welcome to The Best News Page Online </title>
+     {% endif %}
+    </head>
+    <body>
+      <!--Latest movie section-->
+      <h3> Latest News </h3>
+      <ul>
+        {%for latest_news in latest%}
+            <li>{{latest_news.title}}</li>
+        {%endfor%}
+      </ul>
+
+    </body>
+</html>
